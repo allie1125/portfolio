@@ -1,0 +1,173 @@
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 860px;
+    place-items: center;
+    background: #fff;
+}
+
+.title{
+    margin: 2rem 0;
+    font-size: 2rem;    
+}
+
+.skills-bar {
+    width: 50rem;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+ @media screen and (max-width:860px){
+    .skills-bar{
+        width:30rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .skills-bar{
+    height:1300px;
+    }    
+}
+
+.skills-bar .bar {
+    margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+    margin-top: 0px;
+}
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+.skills-bar .bar .info span {
+    color: #59555c;
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+.skills-bar .bar .progress-line {
+    height: 10px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                0 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+
+.progress-line span::before {
+    position: absolute;
+    content:"";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.bar .progress-line.Javascript span{
+    width: 60%;
+}
+.bar .progress-line.PHP span{
+    width: 50%;
+}
+.bar .progress-line.Reactjs span{
+    width: 50%;
+}
+.bar .progress-line.html span{
+    width: 60%;
+}
+.bar .progress-line.css span {
+    width: 60%;
+}
+.bar .progress-line.jquery span {
+    width: 60%;
+}
+.bar .progress-line.MySql span {
+    width: 50%;
+}
+.bar .progress-line.JAVA span {
+    width: 40%;
+}
+
+
+.progress-line.Javascript span::after {
+    content: "60%";
+}
+.progress-line.PHP span::after {
+    content: "50%";
+}
+.progress-line.Reactjs span::after {
+    content: "50%";
+}
+.progress-line.html span::after {
+    content: "60%";
+}
+.progress-line.css span::after {
+    content: "60%";
+}
+.progress-line.jquery span::after {
+    content: "60%";
+}
+.progress-line.MySql span::after {
+    content: "50%";
+}
+.progress-line.JAVA span::after {
+    content: "40%";
+}
