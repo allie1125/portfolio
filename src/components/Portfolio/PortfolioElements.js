@@ -6,7 +6,7 @@ export const PortfolioContainer = styled.div `
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:#010606;
+    background:rgb(211,211,211,0.5);
 
     @media screen and (max-width:1208px){
         height:1000px;
@@ -43,7 +43,7 @@ export const PortfolioWrapper = styled.div `
 
 export const P = styled.div `
     margin: 2rem 3rem;
-    color: rgb(255,255,255);
+    color: #010606;
     font-size:1.3em;
 `
 
@@ -104,9 +104,10 @@ export const PortfolioIcon = styled.img `
 
 export const PortfolioH1 = styled.h1 `
     font-size:2.5rem;
-    color:#fff;
+    color:#010606;
     margin-bottom:64px;
     margin: .5em;
+    font-weight:500;
 
     @media screen and (max-width:480px){
         font-size:2rem;

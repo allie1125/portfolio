@@ -156,7 +156,6 @@ export const Explanation = styled.p `
     font-size:18px;
 `
 
-
 export const PlayerContainer = styled.div `
     display:flex;
     margin:0 auto;
