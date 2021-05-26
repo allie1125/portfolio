@@ -90,6 +90,27 @@ export const LinkText = styled.p `
     }
 `
 
+export const Tech = styled.div `
+    display:flex;
+    flex-direction:row;    
+    flex-wrap:wrap;   
+`
+
+export const TechCardContainer = styled.div `
+    display:flex;
+    flex-direction:column;
+    height:100px;
+    width:100px;
+    margin: .5rem;
+`
+export const TechCardImage = styled.div `
+    flex:80%;
+    /*background-image:url(${image});*/
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+`
+
 export const MainFunction = styled.div `
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
@@ -105,6 +126,7 @@ export const MainFunction = styled.div `
         grid-template-columns :1fr;
         padding:0 20px;
     } 
+
 `
 
 export const CardContainer = styled.div `
@@ -133,28 +155,12 @@ export const Explanation = styled.p `
     width:100%;
     font-size:18px;
 `
-export const TechCardContainer = styled.div `
-    display:flex;
-    flex-direction:column;
-    height:100px;
-    width:100px;
-    margin: .5rem;
-`
-export const TechCardImage = styled.div `
-    flex:80%;
-    /*background-image:url(${image});*/
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
-`
-export const Tech = styled.div `
-    display:flex;
-    flex-direction:row;
-`
+
 
 export const PlayerContainer = styled.div `
+    display:flex;
     margin:0 auto;
-    width:70rem;
+    width:100%;
     height:40rem;
 `
 
