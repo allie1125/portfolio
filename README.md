@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=B897FF&height=300&section=header&text=Seonyoung%20Hong&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=slice&color=B897FF&height=300&section=header&text=Seonyoung%20Hong&fontSize=60)
 
 <h4 align="center">안녕하세요 👋</h4>
 <p align="center">📚 Stack 🛠</p>
