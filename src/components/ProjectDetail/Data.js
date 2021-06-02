@@ -99,7 +99,7 @@ const ProjectDetailData = [
             }
         ],
         videoUrl:['https://youtu.be/kbK0tkPyyks','https://youtu.be/jp1CM7cOANo '],
-        lesson: '처음 접해보는 기술을 익히고 적용하는 어려움 : 클라이언트/서버 간 통신하여 요청과 응답을 주고 받고, 데이터베이스를 사용하여 데이터를 저장하고 불러오는 것은 이 프로젝트를 통해 처음 적용해 보는 것이었습니다. 또한 리눅스OS에서의 서버조작과 운영이 생소하여 어려움을 겪었습니다.\n하지만 이 프로젝트를 통해 필요에 맞는 기능을 개발하기 위한 공부방법을 얻을 수 있었고, 모르는 분야를 공부하고 적용하여 개발하는 것에 대한 거부감이 사라졌습니다. \n또한 초기 기획 단계에서 일정과 기능개발 계획을 더욱 세부적이고 구체적으로 세워야 함을 느꼈습니다.',
+        lesson: '처음 접해보는 기술을 익히고 적용하는 어려움 : 클라이언트/서버 간 통신하여 요청과 응답을 주고 받고, 데이터베이스를 사용하여 데이터를 저장하고 불러오는 것은 이 프로젝트를 통해 처음 적용해 보는 것이었습니다. 또한 리눅스OS에서의 서버조작과 운영이 생소하여 어려움을 겪었습니다.\n하지만 이 프로젝트를 통해 필요에 맞는 기능을 개발하기 위한 공부방법을 얻을 수 있었고, 모르는 분야를 공부하고 적용하여 개발하는 것에 대한 거부감이 사라졌습니다. \n또한 초기 기획단계에서 아래와 같이 마인드맵을 활용하여 세부계획을 세우고, 스스로 어렵게 생각했던 채팅 기능을 개발하기 위하여 카카오톡 PC버전을 분석하며 작은 단위로 쪼개보는 시도를 하며 프로젝트를 완성하였습니다.',
         lessonImg:['/react_portfolio/images/Project_foodtruck/foodtruck_mindmap2.jpg','/react_portfolio/images/Project_foodtruck/kakaotalk.jpg']
     },
     {
@@ -207,10 +207,14 @@ const ProjectDetailData = [
             {
                 img:'/react_portfolio/images/Logo/weatherAPI.jpg',
                 explanation:'OpenWeather API'
+            },
+            {
+                img:null,
+                explanation:'JavaMailAPI'
             }
         ],
         videoUrl:['https://youtu.be/4ROduDTXND4'],
-        lesson:'',
+        lesson:'이 프로젝트를 진행하며, 기획 단계에서 기능개발 계획 및 일정을 세부적으로 세우지 못한 결과로, 중간중간 새로이 기획을 추가하며 개발이 더디게 진행되었습니다. 계획 한 기간보다 일정이 지연될 상황에 처하였고, 그 해결책으로 각 기능을 쪼갠 뒤 우선순위를 매기고 단위별로 개발하며 처리하였습니다. 이를 계기로 세부기획과 일정관리의 중요성을 깨달을 수 있었습니다.\n또한, 외부 라이브러리를 프로젝트에 적용해 보며, API문서 활용 등을 익힐 수 있었습니다. ',
         lessonImg:null
 
     },
